@@ -1,12 +1,12 @@
 ---json
 {
-    "slug": "index",
-    "title": "index",
-    "category": "",
-    "tag": [],
+    "title": "CleanBlog home",
+    "slug": "",
     "layout": "index.html",
-    "date": "2017-05-17T21:58:52.244Z",
+    "tag": [],
+    "date": "2017-05-17T21:58:52.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "__content__": ""
 }
 ---
