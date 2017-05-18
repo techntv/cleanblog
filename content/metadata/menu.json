@@ -1,0 +1,10 @@
+{
+    "title": "DRACO",
+    "items": [
+        { "class": "active", "url": "#about", "title": "About" },
+        { "class": "", "url": "#experiences", "title": "Experiences" },
+        { "class": "", "url": "#achievements", "title": "Echievements" },
+        { "class": "", "url": "#skills", "title": "Skills" }
+    ]
+
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Handcrafted by Afnizar Nur Ghifari",
+     "items": [{
+            "class": "fa fa-send",
+            "url": "mailto:afnizarhilmi@gmail.com"
+        },
+        {
+            "class": "fa fa-twitter",
+            "url": "http://twitter.com/flamekaizar"
+        },
+        {
+            "class": "fa fa-dribbble",
+            "url": "http://dribbble.com/flamekaizar"
+        },
+        {
+            "class": "fa fa-behance",
+            "url": "http://behance.com/flamekaizar"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "_$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": false
+            }
+        },
+        "slug": {
+            "type": "string",
+            "propertyOrder": 100,
+            "readOnly": true,
+            "options": {
+                "hidden": false
+            }
+        },
+        "description": {
+            "type": "string",
+            "propertyOrder": 1000
+        },
+        "layout": {
+            "type": "string",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": true
+            }
+        },
+        "permalink": {
+            "type": "boolean",
+            "propertyOrder": 1000
+        },
+        "about": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            },
+            "propertyOrder": 1000
+        },
+        "experience": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "class": {
+                                "type": "string"
+                            },
+                            "title1": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            },
+                            "title2": {
+                                "type": "string"
+                            },
+                            "title3": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "format": "table"
+                }
+            },
+            "propertyOrder": 1000
+        },
+        "achievements": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "class": {
+                                "type": "string"
+                            },
+                            "title1": {
+                                "type": "string"
+                            },
+                            "title2": {
+                                "type": "string"
+                            },
+                            "title3": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "format": "table"
+                }
+            },
+            "propertyOrder": 1000
+        },
+        "quote": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                }
+            },
+            "propertyOrder": 1000
+        },
+        "category": {
+            "type": "string",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": false
+            }
+        },
+        "tag": {
+            "type": "array",
+            "format": "checkbox",
+            "propertyOrder": 100,
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": []
+            }
+        },
+        "date": {
+            "type": "string",
+            "format": "datetime",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": false
+            }
+        },
+        "__content__": {
+            "type": "string",
+            "format": "text",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": true
+            }
+        },
+        "publishDate": {
+            "type": "string",
+            "format": "datetime",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": true
+            }
+        },
+        "draft": {
+            "type": "boolean",
+            "format": "checkbox",
+            "propertyOrder": 100,
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}
