@@ -2,8 +2,7 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'run',
-1 verbose cli   'watch',
-1 verbose cli   '--prod' ]
+1 verbose cli   'watch' ]
 2 info using npm@3.10.10
 3 info using node@v6.10.2
 4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
@@ -11,8 +10,8 @@
 6 silly lifecycle base-html-metalsmith@1.0.0~prewatch: no script for prewatch, continuing
 7 info lifecycle base-html-metalsmith@1.0.0~watch: base-html-metalsmith@1.0.0
 8 verbose lifecycle base-html-metalsmith@1.0.0~watch: unsafe-perm in lifecycle true
-9 verbose lifecycle base-html-metalsmith@1.0.0~watch: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\NTV\easyweb\sites\make_2\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Ruby22-x64\bin;C:\Users\NTV\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\NTV\AppData\Roaming\npm;C:\cygwin64\bin
-10 verbose lifecycle base-html-metalsmith@1.0.0~watch: CWD: E:\NTV\easyweb\sites\make_2
+9 verbose lifecycle base-html-metalsmith@1.0.0~watch: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\NTV\cleanblog\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Ruby22-x64\bin;C:\Users\NTV\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\NTV\AppData\Roaming\npm;C:\cygwin64\bin
+10 verbose lifecycle base-html-metalsmith@1.0.0~watch: CWD: E:\NTV\cleanblog
 11 silly lifecycle base-html-metalsmith@1.0.0~watch: Args: [ '/d /s /c', 'gulp' ]
 12 silly lifecycle base-html-metalsmith@1.0.0~watch: Returned: code: 1  signal: null
 13 info lifecycle base-html-metalsmith@1.0.0~watch: Failed to exec watch script
@@ -27,9 +26,9 @@
 14 verbose stack     at maybeClose (internal/child_process.js:886:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid base-html-metalsmith@1.0.0
-16 verbose cwd E:\NTV\easyweb\sites\make_2
+16 verbose cwd E:\NTV\cleanblog
 17 error Windows_NT 10.0.14393
-18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "watch" "--prod"
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "watch"
 19 error node v6.10.2
 20 error npm  v3.10.10
 21 error code ELIFECYCLE
